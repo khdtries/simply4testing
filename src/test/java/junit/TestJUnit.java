@@ -8,6 +8,6 @@ public class TestJUnit {
 	@Test
 	public void testSetup() {
 		String s = "junit test";
-		assertEquals("junit testing", s);
+		assertEquals("junit test", s);
 	}
 }
