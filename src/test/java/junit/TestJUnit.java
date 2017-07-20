@@ -10,4 +10,10 @@ public class TestJUnit {
 		String s = "junit test";
 		assertEquals("junit test", s);
 	}
+	
+	@Test
+	public void testSetup2() {
+		String s = "junit test 2";
+		assertEquals("junit test 3", s);
+	}
 }
